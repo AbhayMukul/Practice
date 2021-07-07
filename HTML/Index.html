@@ -2,7 +2,7 @@
 <html>
     <head>
     <title>
-        Title
+        Title Given
     </title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -10,11 +10,31 @@
     </head>
     <body>
         <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg bg-Danger navbar-dark">
+        <nav class="navbar navbar-expand-xxl bg-Danger navbar-dark">
             <div class="container">
                 <a href="#" class="navbar-brand">Trail</a>
-                <div class="collapse navbar-collapse">
-                    
+
+                <button 
+                    class="navbar-toggler"  
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- list -->
+                        <li class="nav-itm">
+                            <!-- href to a link change in #learn -->
+                            <a href="#learn" class="nav-link">FIRST</a>
+                        </li>
+ 
+                        <li class="nav-itm">
+                            <a href="#two" class="nav-link">SECOND</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
