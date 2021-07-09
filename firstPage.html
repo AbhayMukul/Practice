@@ -5,12 +5,18 @@
         </h1>
     </title>
     <body>
-        <p>
+        <p id="tag_1">
             NEW MESSAGES
         </p>
 
-        <button>
+        <button onclick="newFunction()">
             DONE
         </button>
+
+        <script>
+            function newFunction(){
+                document.getElementById("tag_1").innerHTML=24;
+            }
+        </script>
     </body>
 </html>
