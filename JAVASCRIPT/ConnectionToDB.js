@@ -10,7 +10,11 @@ var con = mysql.createConnection({
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
+<<<<<<< HEAD
   var sql = "INSERT INTO TRAIL VALUES('Aul',20)";
+=======
+  var sql = "INSERT INTO TRAIL VALUES('Abhay Mukul',20)";
+>>>>>>> master
   con.query(sql,function(err,result){
       if (err) throw err;
       console.log(result);
